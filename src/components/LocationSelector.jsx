@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaLocationArrow, FaPlus, FaHome, FaClock, FaEllipsisH, FaShareAlt } from 'react-icons/fa';
 import { Card, Form, Button, Row, Col, ListGroup, Badge } from 'react-bootstrap';
-
+import "../App.css";
 const deliveryPins = ['574142', '575001', '576101'];
 
 const LocationSelector = () => {

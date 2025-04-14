@@ -11,9 +11,11 @@ import CartPage from './components/CartPage';
 import Checkout from './components/Checkout';  // Import Checkout component
 import { CartProvider } from './components/contexts/CartContext';
 import SignIn from './components/SignIn';
+import './App.css';  // Import your CSS file
 
 export default function App() {
   return (
+    
     <CartProvider>
       <Router>
         <NavigationBar />
@@ -29,5 +31,8 @@ export default function App() {
         </Routes>
       </Router>
     </CartProvider>
+    
   );
+  <div className="animated-gradient"></div>
+
 }
