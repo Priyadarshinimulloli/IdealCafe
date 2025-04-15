@@ -75,6 +75,9 @@ export default function NavigationBar() {
                   <span className="badge bg-warning text-dark ms-1">{totalItems}</span>
                 )}
               </Nav.Link>
+              <Nav.Link as={Link} to="/order-tracking" className={darkMode ? "text-white" : "text-dark"}>
+                Order Tracking
+              </Nav.Link>
 
               {/* Dark Mode Toggle */}
               <Nav.Link
