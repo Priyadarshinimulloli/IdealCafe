@@ -14,6 +14,7 @@ import ClassicLemonIcedTea from "../assets/Menu/ClassicLemonIcedTea/ClassicLemon
 import SpicyPotatoTwisters from "../assets/Menu/SpicyPotatoTwisters/SpicyPotatoTwisters.jpg";
 import TropicalTango from "../assets/Menu/TropicalTango/TropicalTango.jpg";
 import { useCart } from "./contexts/CartContext";
+import "./Menupage.css"
 
 const menuData = [
   {
@@ -329,7 +330,6 @@ export default function CafeMenu() {
                       <strong>Total Rating:</strong> ⭐ {item.rating}
                     </Card.Text>
                   )}
-
                   <Form
                     className="mt-2"
                     onSubmit={(e) => {
@@ -338,6 +338,11 @@ export default function CafeMenu() {
                       const text = e.target.review.value;
                       handleReviewSubmit(item.id, rating, text);
                       e.target.reset();
+
+                      // Show alert message after submitting review
+                      alert(
+                        "Thank you for your review! It has been submitted successfully."
+                      );
                     }}
                   >
                     <Form.Group className="mb-2">
