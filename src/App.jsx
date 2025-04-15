@@ -11,11 +11,14 @@ import CartPage from './components/CartPage';
 import Checkout from './components/Checkout';
 import { CartProvider } from './components/contexts/CartContext';
 import SignIn from './components/SignIn';
+
+import './App.css'; 
 import OrderTracking from './components/OrderTracking';
 import Footer from './components/Footer';
 
 export default function App() {
   return (
+    
     <CartProvider>
       <Router>
         <div className="app-wrapper">
@@ -37,5 +40,8 @@ export default function App() {
         </div>
       </Router>
     </CartProvider>
+    
   );
+  <div className="animated-gradient"></div>
+
 }
