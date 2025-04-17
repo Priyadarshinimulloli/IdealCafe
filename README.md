@@ -39,12 +39,10 @@ Welcome to the Ideal Café app! A digital platform that brings the delicious fla
 ### 6. **User Authentication** 🔑<br/>
 - **Login/Signup** forms with email and password.<br/>
 - **Form validation** to ensure correct input.<br/>
-- **Profile Page** (Optional): Display user info and order history.<br/>
 <hr/>
 
 ### 7. **Admin Dashboard** 👩‍💼<br/>
 - **Mock dashboard** for managing menu items.<br/>
-- View daily **sales** or **analytics** (optional).<br/>
 <hr/>
 
 ## Tech Stack ⚙️<br/>
